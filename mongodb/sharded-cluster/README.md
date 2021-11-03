@@ -129,6 +129,6 @@ Adicionando o novo shard ao cluster
 
 `sh.addShard("shard03/mongo-shard3b:27020")`
 
-##Conclusão
+## Conclusão
 
 Através deste passo-a-passo realizamos a criação de um Sharded cluster utilizando MongoDB como banco de dados NoSQL e podemos notar a simplicidade para efetuar a configuração deste modelo de cluster assim como o seu caminho objetivo para escalar conforme sua necessidade.
