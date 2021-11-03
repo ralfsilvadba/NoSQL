@@ -38,4 +38,19 @@ Validar criação da rede
 `docker network ls`
 
 ### Config server
+Criando e iniciando os containers do componente config server
+
+`docker run --name mongo-config01 --net mongo-cluster -d mongo mongod --configsvr --replSet configserver -port 27017`
+`docker run --name mongo-config02 --net mongo-cluster -d mongo mongod --configsvr --replSet configserver -port 27017`
+`docker run --name mongo-config03 --net mongo-cluster -d mongo mongod --configsvr --replSet configserver -port 27017`
+
+Conectando no servidor mongo-config01 para criar a configuração de replicatSet
+
+`docker exec -it mongo-config01 mongo`
+
+Configurando os servidores para trabalhar em modo replicatSet do MongoDB
+
+`rs.initiate({ _id: "configserver", configsvr: true, version: 1, members: [ { _id: 0, host : "mongo-config01:27017" }, { _id: 1, host : "mongo-config02:27017" }, { _id: 2, host : "mongo-config03:27017" } ] } )
+`
+
 
