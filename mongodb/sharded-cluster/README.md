@@ -36,6 +36,7 @@ Para realizar a criação da estrutura do cluster é necessário criar uma nova 
 `docker network create mongo-cluster`
 
 Validar criação da rede
+
 `docker network ls`
 
 ### Config server
