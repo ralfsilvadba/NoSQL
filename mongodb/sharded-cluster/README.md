@@ -10,7 +10,7 @@ Implementar uma arquitetura de sharded cluster que atende a carateristicas do te
 Para criação deste laboratório é necessário utilizar o Docker que pode ser encontrado neste [link](https://www.docker.com/)
 
 ### Arquitetura
-![[https://github.com/ralfsilvadba/NoSQL/tree/main/img/Arquitetura_ShardedCluster_MongoDB.png]]
+![https://github.com/ralfsilvadba/NoSQL/tree/main/img/Arquitetura_ShardedCluster_MongoDB.png]
 
 Com base na imagem iremos utilizar na prática deste post 01 servidor de mongos, 03 servidores de Config server em modo replicaSet, 01 shard com dois servidores em replicaSet, 01 shard com dois servidores em replicaSet.
 
