@@ -13,12 +13,20 @@ As dicas aqui são voltadas para o MongoDB, que é um banco de dados de document
 - Sempre que possível agrege informações no documento utilizando um subconjunto de dados.
 
 Modelo relacional
+
 ![image](https://github.com/ralfsilvadba/NoSQL/blob/main/img/EXEMPLO_MODELO_RELACIONAL.png)
 
 Modelo desnormalizado
+
 ![image](https://github.com/ralfsilvadba/NoSQL/blob/main/img/EXEMPLO_DESNORMALIZADO.png)
 
+Modelo relacional com tipo de dados
 
+![image](https://github.com/ralfsilvadba/NoSQL/blob/main/img/EXEMPLO_METADADOS.png)
+
+Modelo desnormalizado com tipo de dados
+
+![image](https://github.com/ralfsilvadba/NoSQL/blob/main/img/EXEMPLO_METADADOS_DOCUMENTO.png)
 
 A MongoDB também disponibiliza uma série de padrões de modelagem que podemos utilizar.
 
