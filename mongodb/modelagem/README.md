@@ -37,7 +37,3 @@ A MongoDB também disponibiliza uma série de padrões de modelagem que podemos 
 - Personalization: Como em sistemas com schema de dados personalizável para entregar conteúdo relevante aos usuários, muito usados no marketing digital;
 - Real-Time Analytics: Como em sistemas de estatísticas real-time;
 - Single View: Como em sistemas de dashboards, gerenciais e outros que agregam informações de diferentes fontes em uma base só;
-
-
-
-Imaginando um cenário de uma rede social criada utilizando banco de dados relacionais poderiamos ter o seguinte modelo.
