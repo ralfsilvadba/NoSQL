@@ -5,14 +5,20 @@ As aplicações do atual momento necessitam de caractrísticas diferentes para s
 
 As dicas aqui são voltadas para o MongoDB, que é um banco de dados de documentos com caracterísitcas de escalabilidade e flexibilidade, classificado como programa de banco de dados NoSQL(Not Only SQL).
 
-
-
 - Evite o uso de junção(JOIN) entre os documentos.
 - Evite a criação de documentos muito grandes.
 - Evite campos multivalorados com muitos elementos.
 - Utilize nomemclatura objetiva para nomear as chaves/campos.
 - Armazene no documento somente os dados necessários.
 - Sempre que possível agrege informações no documento utilizando um subconjunto de dados.
+
+Modelo relacional
+![image](https://github.com/ralfsilvadba/NoSQL/blob/main/img/EXEMPLO_MODELO_RELACIONAL.png)
+
+Modelo desnormalizado
+![image](https://github.com/ralfsilvadba/NoSQL/blob/main/img/EXEMPLO_DESNORMALIZADO.png)
+
+
 
 A MongoDB também disponibiliza uma série de padrões de modelagem que podemos utilizar.
 
